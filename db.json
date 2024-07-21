@@ -1,0 +1,125 @@
+{
+    "hosts": [
+    {
+      "id": "123",
+      "name": "Juan",
+      "description": "gran cuidador de perros",
+      "city": "Sevilla",
+      "adress": [0,1],
+      "email": "juan@gmail.com",
+      "mobile": "624572895",
+      "price": 15
+    },
+    {
+        "id": "345",
+        "name": "Maria",
+        "description": "vet y amante de los perros",
+        "city": "Bilbao",
+        "adress": [0,5],
+        "email": "maria@gmail.com",
+        "mobile": "612372891",
+        "price": 10
+    },
+    {
+        "id": "567",
+        "name": "Aleix",
+        "description": "me dedico al cuidado de perros hace 7 años",
+        "city": "Barcelona",
+        "adress": [0,7],
+        "email": "aleix@gmail.com",
+        "mobile": "61222561",
+        "price": 12
+    },
+    {
+        "id": "789",
+        "name": "Daniela",
+        "description": "gran cuidadora de animales",
+        "city": "Coruña",
+        "adress": [0,5],
+        "email": "dan@gmail.com",
+        "mobile": "634457562",
+        "price": 15
+    },
+    {
+        "id": "987",
+        "name": "Marc",
+        "description": "me encantan los animales",
+        "city": "Barcelona",
+        "adress": [0,8],
+        "email": "marc@gmail.com",
+        "mobile": "673389156",
+        "price": 13
+    },{
+        "id": "756",
+        "name": "kamila",
+        "description": " soy paseadora de perros y soy amante de los animales",
+        "city": "Madrid",
+        "adress": [0,3],
+        "email": "kamila@gmail.com",
+        "mobile": "653812500",
+        "price": 12
+    }
+  ],
+  "reservations": [
+    {
+        "id": "abc",
+        "hostId": "123",
+        "ownerName": "Laura Garcia",
+        "dates": "2024-08-01 a 2024-08-07",
+        "numberOfDogs": "1",
+        "doggyName": "Max",
+        "size": "mediano",
+        "age": "4",
+        "allergies": false,
+        "ownFood": true,
+        "additional notes": "Max es muy activo y necesita paseos diarios",
+        "OwnerMobile": "600456789",
+        "ownerEmail": "laura@gmail.com"
+    },
+    {
+        "id": "cde",
+        "hostId": "345",
+        "ownerName": "Pedro Sanchez",
+        "dates": "2024-08-10 a 2024-08-15",
+        "numberOfDogs": "1",
+        "doggyName": "Luna",
+        "size": "pequeño",
+        "age": "2",
+        "allergies": true,
+        "ownFood": true,
+        "additional notes": "Luna es muy tímida y le gusta estar en lugares tranquilos.",
+        "OwnerMobile": "610789123",
+        "ownerEmail":"pedrosanchez@example.com"
+    },
+    {
+        "id": "efg",
+        "hostId": "789",
+        "ownerName": "Alessandro Vega",
+        "dates": "2024-08-11 a 2024-08-20",
+        "numberOfDogs": "1",
+        "doggyName": "Fuet",
+        "size": "pequeño",
+        "age": "3",
+        "allergies": true,
+        "ownFood": true,
+        "additional notes": "Fuet odia el calor, es importante darle agua con hielo.",
+        "OwnerMobile": "620123654",
+        "ownerEmail":"alessandro@example.com"
+    },
+    {
+        "id": "ghi",
+        "hostId": "567",
+        "ownerName": "Sofia Torres",
+        "dates": "2024-08-02 a 2024-08-10",
+        "numberOfDogs": "1",
+        "doggyName": "Rocky",
+        "size": "grande",
+        "age": "6",
+        "allergies": true,
+        "ownFood": true,
+        "additional notes": "Rocky necesita medicación diaria para sus alergias.",
+        "OwnerMobile": "667623655",
+        "ownerEmail":"sofiatorres@example.com"
+    }
+  ]
+}
