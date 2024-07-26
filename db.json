@@ -5,7 +5,10 @@
       "name": "Juan",
       "description": "Gran amante de perros",
       "city": "Sevilla",
-      "address": [37.38283, -5.97317],
+      "address": [
+        37.38283,
+        -5.97317
+      ],
       "email": "juan@gmail.com",
       "phone": "624572895",
       "price": 15
@@ -15,7 +18,10 @@
       "name": "Maria",
       "description": "Vet y amante de los perros",
       "city": "Bilbao",
-      "address": [43.26271, -2.92528],
+      "address": [
+        43.26271,
+        -2.92528
+      ],
       "email": "maria@gmail.com",
       "phone": "612372891",
       "price": 10
@@ -25,7 +31,10 @@
       "name": "Aleix",
       "description": "Me dedico al cuidado de perros hace 7 años",
       "city": "Barcelona",
-      "address": [41.38879, 2.15899],
+      "address": [
+        41.38879,
+        2.15899
+      ],
       "email": "aleix@gmail.com",
       "phone": "61222561",
       "price": 12
@@ -35,7 +44,10 @@
       "name": "Daniela",
       "description": "Gran cuidadora de animales",
       "city": "La Coruña",
-      "address": [43.37135, -8.396],
+      "address": [
+        43.37135,
+        -8.396
+      ],
       "email": "dan@gmail.com",
       "phone": "634457562",
       "price": 15
@@ -45,7 +57,10 @@
       "name": "Marc",
       "description": "Me encantan los animales",
       "city": "Palma de Mallorca",
-      "address": [39.56939, 2.65024],
+      "address": [
+        39.56939,
+        2.65024
+      ],
       "email": "marc@gmail.com",
       "phone": "673389156",
       "price": 13
@@ -55,7 +70,10 @@
       "name": "Kamila",
       "description": "Soy paseadora de perros y soy amante de los animales",
       "city": "Murcia",
-      "address": [37.98704, -1.13004],
+      "address": [
+        37.98704,
+        -1.13004
+      ],
       "email": "kamila@gmail.com",
       "phone": "653812500",
       "price": 12
@@ -65,7 +83,10 @@
       "name": "Guzman",
       "description": "Ofrezco servicios de paseo y cuidado de perros. Tengo 5 años de experiencia.",
       "city": "Madrid",
-      "address": [40.4165, -3.70256],
+      "address": [
+        40.4165,
+        -3.70256
+      ],
       "email": "guzman@gmail.com",
       "phone": "655321789",
       "price": 15
@@ -75,7 +96,10 @@
       "name": "Sofia",
       "description": "Me encanta pasear perros y tengo experiencia en cuidado de mascotas.",
       "city": "Valladolid",
-      "address": [41.65518, -4.72372],
+      "address": [
+        41.65518,
+        -4.72372
+      ],
       "email": "sofia@gmail.com",
       "phone": "657123654",
       "price": 10
@@ -85,7 +109,10 @@
       "name": "Cayetana",
       "description": "Cuido perros de todas las razas y tamaños. Servicios disponibles todos los días.",
       "city": "Oviedo",
-      "address": [43.36029, -5.84476],
+      "address": [
+        43.36029,
+        -5.84476
+      ],
       "email": "cayetana@gmail.com",
       "phone": "659654123",
       "price": 13
@@ -93,64 +120,79 @@
   ],
   "reservations": [
     {
-      "id": "abc",
-      "dates": "2024-08-01 a 2024-08-07",
+      "dates": "2024-07-28 2024-08-01",
+      "quantityDogs": "1",
+      "dogName": "Roma",
+      "dogSize": "Grande",
+      "dogAge": "3",
+      "dogAllergies": false,
+      "ownFood": true,
+      "additionalNotes": "Le gusta tomar agua con hielo",
+      "ownersName": "David Ordoñez",
+      "email": "david@gmail.com",
+      "phone": "65437893",
+      "hostId": 123,
+      "id": 1
+    },
+    {
+      "dates": "2024-07-28 2024-08-01",
+      "quantityDogs": "1",
+      "dogName": "Fuet",
+      "dogSize": "Mediano",
+      "dogAge": "3",
+      "dogAllergies": false,
+      "ownFood": true,
+      "additionalNotes": "tiene piel atópica ",
+      "ownersName": "Veronica Yepez",
+      "email": "ver@gmail.com",
+      "phone": "66987456",
+      "hostId": 567,
+      "id": 2
+    },
+    {
+      "dates": "2024-07-28 2024-08-10",
+      "quantityDogs": "1",
+      "dogName": "Negrito",
+      "dogSize": "Mediano",
+      "dogAge": "8",
+      "dogAllergies": false,
+      "ownFood": true,
+      "additionalNotes": "Le gusta comer plátano congelado ",
+      "ownersName": "Cristobal Serrano",
+      "email": "juan@gmail.com",
+      "phone": "634462675",
+      "hostId": 123,
+      "id": 3
+    },
+    {
+      "dates": "2024-07-28 2024-08-01",
       "quantityDogs": "1",
       "dogName": "Max",
-      "dogSize": "mediano",
-      "dogAge": "4",
+      "dogSize": "Mediano",
+      "dogAge": "2",
       "dogAllergies": false,
       "ownFood": true,
       "additionalNotes": "Max es muy activo y necesita paseos diarios",
-      "ownerName": "Laura Garcia",
-      "phone": "600456789",
-      "email": "laura@gmail.com",
-      "hostId": "123"
+      "ownersName": "Luciana Vega",
+      "email": "lu@gmail.com",
+      "phone": "66987456",
+      "hostId": 756,
+      "id": 4
     },
     {
-      "id": "def",
-      "dates": "2024-08-08 a 2024-08-14",
+      "dates": "2024-07-28 2024-08-01",
       "quantityDogs": "1",
-      "dogName": "Bella",
-      "dogSize": "pequeño",
-      "dogAge": "2",
-      "dogAllergies": true,
-      "ownFood": false,
-      "additionalNotes": "Bella tiene alergia al polen y necesita cuidados especiales",
-      "ownerName": "Carlos Lopez",
-      "phone": "600123456",
-      "email": "carlos@gmail.com",
-      "hostId": "345"
-    },
-    {
-      "id": "ghi",
-      "dates": "2024-08-15 a 2024-08-21",
-      "quantityDogs": "1",
-      "dogName": "Rocky",
-      "dogSize": "grande",
-      "dogAge": "5",
+      "dogName": "Pepe",
+      "dogSize": "Mediano",
+      "dogAge": "1",
       "dogAllergies": false,
       "ownFood": true,
-      "additionalNotes": "Rocky es muy tranquilo y le gusta estar en el jardín",
-      "ownerName": "Marta Sanchez",
-      "phone": "600789123",
-      "email": "marta@gmail.com",
-      "hostId": "567"
-    },
-    {
-      "id": "jkl",
-      "dates": "2024-08-22 a 2024-08-28",
-      "quantityDogs": "1",
-      "dogName": "Luna",
-      "dogSize": "mediano",
-      "dogAge": "3",
-      "dogAllergies": true,
-      "ownFood": false,
-      "additionalNotes": "Luna necesita medicación diaria para su alergia",
-      "ownerName": "Ana Perez",
-      "phone": "600456321",
-      "email": "ana@gmail.com",
-      "hostId": "789"
+      "additionalNotes": "tiene piel atópica ",
+      "ownersName": "Jose",
+      "email": "jose@gmail.com",
+      "phone": "67894512",
+      "hostId": 567,
+      "id": 5
     }
   ]
 }
